@@ -1,7 +1,13 @@
 # This program adds two numbers
-num1 = 4.5
-num2 = 6.5
-# Add two numbers
-sum = float(num1) + float(num2)
-# Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+num1 = int(input("Enter your first number :"))
+num2 = int(input("Enter your  second number :"))
+
+try:
+  if int(num1) and int(num2):
+    print(f"Your answer is {num1+num2}.")
+
+  elif float(num1) and float(num2):
+    print(f"Your answer is {num1+num2}."  
+    
+except:
+   print("Please check your input")
